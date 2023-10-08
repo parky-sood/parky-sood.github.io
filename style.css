@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+:root
+{
+    --bg-color: #5cdb95;
+    --text-color: #05386b;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+    color: var(--text-color);
+}
+nav
+{
+    margin: 0;
+    padding: 0rem;
+    width: 100%;
+    height: 3.5rem;
+    background: var(--bg-color);
+    display: flex;
+    top: 0;
+    position: sticky;
+}
+nav ul
+{
+    padding: 0;
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+}
+nav ul li
+{
+    margin: 0 1rem;
+}
+nav ul li a
+{
+    padding: 0.3rem 0.4rem;
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 0.7rem;
+}
+nav i
+{
+    font-size: 1.2rem;
+}
+nav ul li a:hover, nav ul li a:hover i
+{
+    transition: 100ms ease;
+    color: #fff;
+}
+.hover a:hover
+{
+    background: var(--text-color);
+}
+
+#linkedin
+{
+    margin-left: auto;
+}
+section
+{
+    width: 100%;
+}
+section .heading
+{
+    text-align: center;
+}
+#home
+{
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+}
+#home div
+{
+    margin: auto;
+}
+#home #text
+{
+    font-size: 2.1vw;
+    text-align: center;
+}
+#home #skills
+{
+    font-size: 1.9vw;
+    background: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 1.5rem;
+}
+#home #skills ul
+{
+    padding: 1rem 3rem;
+    list-style: none;
+}
+#projects
+{
+    margin: 0;
+}
+#projects .layout
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    justify-content: center;
+}
+#projects .card
+{
+    border-radius: 1rem;
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 2rem;
+    width: 10rem;
+    margin: 2rem;
+    justify-content: center;
+}
+#projects .card .title, #projects .card .proj-desc
+{
+    text-align: center;
+}
+#projects .card .button
+{
+    padding: 1.3rem 1.3rem 0 1.3rem;
+}
+#projects .card .button a
+{
+    text-decoration: none;
+    background: var(--text-color);
+    padding: 0.5rem 1rem;
+    color: var(--bg-color);
+    border-radius: 1rem;
+}
+#projects .card .button a:hover
+{
+    color: white;
+    transition: 100ms ease;
+}
+#about-me .content
+{
+    margin: 0 auto;
+    display: flex;
+    padding: 3rem;
+}
+#about-me .content div
+{
+    width: 50%;
+    padding: 0 2.5rem;
+}
+#about-me img
+{
+    border-radius: 1rem;
+    width: 100%;
+}
+#contact
+{
+    background: var(--text-color);
+    color: white;
+    padding-top: 1.25rem;
+}
