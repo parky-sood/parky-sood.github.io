@@ -72,10 +72,10 @@ section .heading
 }
 #home
 {
-    background: var(--bg-color);
+    background: var(--text-color);
     display: flex;
     justify-content: center;
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 #home div
 {
@@ -89,9 +89,10 @@ section .heading
 #home #skills
 {
     font-size: 1.9vw;
-    background: var(--text-color);
-    color: var(--bg-color);
+    background: var(--bg-color);
+    color: var(--text-color);
     border-radius: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 #home #skills ul
