@@ -92,6 +92,7 @@ section .heading
     background: var(--text-color);
     color: var(--bg-color);
     border-radius: 1.5rem;
+    margin-bottom: 2rem;
 }
 #home #skills ul
 {
@@ -160,5 +161,38 @@ section .heading
 {
     background: var(--text-color);
     color: white;
-    padding-top: 1.25rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
+.message{
+    width: 100%;
+    padding: 1.25rem;
+}
+input[type=text], textarea {
+    width: calc(100% - 0.5rem); /* Full width */
+    padding: 0.9rem; /* Some padding */ 
+    border: 1px solid #fff; /* Gray border */
+    border-radius: 1rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0.375rem; /* Add a top margin */
+    margin-bottom: 1rem; /* Bottom margin */
+    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Poppins", sans-serif;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    font-size: 0.96rem;
+    transition: 200ms ease;
+  }
