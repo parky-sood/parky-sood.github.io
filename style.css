@@ -117,7 +117,8 @@ section .heading
     background: var(--bg-color);
     color: var(--text-color);
     padding: 2rem;
-    width: 10rem;
+    max-width: 20rem;
+    height: fit-content;
     margin: 2rem;
     justify-content: center;
 }
@@ -128,6 +129,8 @@ section .heading
 #projects .card .button
 {
     padding: 1.3rem 1.3rem 0 1.3rem;
+    display: flex;
+    justify-content: center;
 }
 #projects .card .button a
 {
@@ -157,6 +160,12 @@ section .heading
 {
     border-radius: 1rem;
     width: 100%;
+}
+#about-me .desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #contact
 {
